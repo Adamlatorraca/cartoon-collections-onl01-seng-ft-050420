@@ -11,7 +11,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   called = []
-  called << planeteer_calls.map {|elem| elem.capitalize + "!"}
+  called << planeteer_calls.map {|elem| puts elem.capitalize + "!"}
   puts called
 end
 
