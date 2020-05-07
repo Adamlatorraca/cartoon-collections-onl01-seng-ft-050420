@@ -15,6 +15,8 @@ def summon_captain_planet(array)
   while i < array.length
     called << i.capitalize + "!"
     i += 1
+  end
+  called
 end
 summon_captain_planet(planeteer_calls)
 
