@@ -1,7 +1,9 @@
 def roll_call_dwarves(dwarves)
 	dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+  dwarf = 0
 	dwarves.each_with_object do |dwarf|
 		puts "#{dwarf}"
+    dwarf +=1
   end
 end
 
