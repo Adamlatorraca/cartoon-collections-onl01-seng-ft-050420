@@ -2,7 +2,7 @@ def roll_call_dwarves(array)
 	dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
   i = 0
 	dwarves.each_with_object do |i|
-		puts "#{d"
+		puts "#{array[i]""
     i +=1
   end
 end
