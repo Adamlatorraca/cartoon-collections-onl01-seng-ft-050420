@@ -1,10 +1,10 @@
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 def roll_call_dwarves(array)
-  i = 0
+  counter = 0
 	array.each do |i|
 		puts "#{array[i]}"
-    i +=1
+    counter +=1
   end
 roll_call_dwarves(dwarves)
 end
