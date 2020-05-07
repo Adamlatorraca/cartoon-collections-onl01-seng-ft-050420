@@ -3,7 +3,7 @@ planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
 def roll_call_dwarves(array)
   i = 0
-  while i < dwarves.length
+  while i < array.length
     puts "#{i + 1}. #{dwarves[i]}"
     i += 1
   end
@@ -11,8 +11,8 @@ end
 roll_call_dwarves(dwarves)
 def summon_captain_planet(array)
   called = []
-  called << array.map {|elem| elem.capitalize + "!"}
-  puts called
+  i = 0
+  while i <
 end
 summon_captain_planet(planeteer_calls)
 
